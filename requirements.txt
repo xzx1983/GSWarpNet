@@ -1,0 +1,24 @@
+# GSWarpNet — Python dependencies
+# Install with: uv pip install -r requirements.txt
+# or: uv venv .venv && source .venv/bin/activate && uv pip install -r requirements.txt
+
+# Core deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Data format
+h5py>=3.8.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Optional: optical flow baseline (OpenCV)
+# Uncomment if you want to use OpticalFlowBaseline:
+# opencv-python-headless>=4.7.0

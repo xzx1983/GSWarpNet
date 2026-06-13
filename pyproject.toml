@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "gswarpnet"
+version = "1.0.0"
+description = "Decoupled Warp-and-Refine Radar Echo Nowcasting"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.24.0",
+    "h5py>=3.8.0",
+    "matplotlib>=3.7.0",
+    "tqdm>=4.65.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["gswarpnet*"]

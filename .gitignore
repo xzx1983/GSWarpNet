@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+*.pt
+*.bin
+*.h5
+data/frames.bin
+data/frame_idx.json
+outputs/results/*.json
+outputs/figures/*.png
+outputs/figures/*.pdf
