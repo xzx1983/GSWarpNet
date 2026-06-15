@@ -50,7 +50,7 @@ uv pip install opencv-python-headless
 The SRadar (SHMU Malý Javorník) dataset is publicly available from:
 
 > Pavlík, P., et al. (2025). *LUPIN: Learning Updraft Patterns in Nowcasting*.
-> Dataset: [https://doi.org/10.xxxx/sradar](https://doi.org/10.xxxx/sradar)
+> Dataset: [https://doi.org/10.17632/whwgrycztz.1](https://doi.org/10.17632/whwgrycztz.1)
 
 Download the dataset and note:
 - `mj_uint8/` — directory of individual HDF5 frames (≈63,000 files)
